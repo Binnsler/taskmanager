@@ -95,10 +95,6 @@ router.patch( "/users/me", authentication, async ( request, response ) => {
 
         await request.user.save();
 
-        if( !user ){
-            return response.status( 404 ).send();
-        }
-
         response.send( request.user );
     }
     catch( error ){
