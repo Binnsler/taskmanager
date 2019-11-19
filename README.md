@@ -1,4 +1,4 @@
-# 2D Task Manager
+# Task Manager
 
 This is an API only task manager application that allows for the creation of Tasks by Users. It is not meant for production, rather a study of NodeJS, Express, MongoDB, Mongoose, Jest ( testing ), and JSON Web Tokens.
 
